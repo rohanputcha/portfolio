@@ -1,46 +1,18 @@
 
-@import url('https://fonts.googleapis.com/css2?family=REM:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@100;200&display=swap');
 
 body {
     margin: 0;
     padding: 0;
-    background-color: #000;
+    background-color: #0E1111;
     color: #fff;
     font-family: 'REM', sans-serif;
     display: flex;
     align-items: center; /* Vertically center the content */
     min-height: 100vh; /* Ensure the content fills the screen */
   }
-  
-  /* ... Previous CSS Rules ... */
 
   .container {
     display: flex;
     align-items: center; /* Vertically center the content */
-  }
-  
-  .sidebar {
-    padding: 20px;
-    background-color: #333;
-    position: fixed;
-    top: 50%; /* Position at the middle of the screen */
-    transform: translateY(-50%); /* Adjust for the element's height */
-    border-radius: 15px;
-  }
-
-  .sidebar-container {
-    margin-left: 10%;
-  }
-  
-
-   .main-container {
-    flex: 1; /* Take up the remaining available space */
-    margin-left: 300px; /* Adjust the margin to create space for the sidebar */
-  }
-  
-  .main-content {
-    padding: 20px;
-    background-color: #444;
-    border-radius: 15px;
-    width: 950px;
   }

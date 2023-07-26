@@ -6,9 +6,9 @@ import './MainBox.css'
 
 function MainBox() {
   return (
-    <div class="main-container">
-            <main class="main-content">
-                <article class="portfolio">
+    <div className="main-container">
+            <main className="main-content">
+                <article className="portfolio">
                     <Navbar/>
                     <section id="about-me">
                         <h2>About Me</h2>

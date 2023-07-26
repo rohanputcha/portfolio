@@ -9,3 +9,17 @@
 #resume {
     display: none;
 }
+
+/* */
+
+.main-container {
+    flex: 1; /* Take up the remaining available space */
+    margin-left: 430px; /* Adjust the margin to create space for the sidebar */
+}
+  
+.main-content {
+    padding: 20px;
+    background-color: #444;
+    border-radius: 15px;
+    width: 950px;
+}

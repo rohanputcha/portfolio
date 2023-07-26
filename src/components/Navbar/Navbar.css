@@ -21,6 +21,7 @@
     background-color: #555;
     border-radius: 5px;
     cursor: pointer;
+    font-family: 'REM', sans-serif;
   }
   
   .navbar button:hover {

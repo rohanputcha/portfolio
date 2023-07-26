@@ -2,12 +2,12 @@
 
 import React from 'react';
 import './App.css'
-import Sidebar from './components/Sidebar';
+import Sidebar from './components/Sidebar/Sidebar';
 import MainBox from './components/MainBox/MainBox';
 
 function App() {
   return (
-    <div class="container">
+    <div className="container">
         <Sidebar/>
         <MainBox/>
     </div>
