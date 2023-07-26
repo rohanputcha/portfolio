@@ -8,7 +8,7 @@ function Sidebar() {
     <div className="sidebar-container">
         <aside className="sidebar">
             <div className="profile-picture">
-                <img src="/images/profile-pic.jpg" alt="Profile" />
+                <img src="https://raw.githubusercontent.com/rohanputcha/portfolio/content/images/profile-pic.jpg" alt="Profile" />
             </div>
             <h2>Rohan Putcha</h2>
             <p>University of Michigan - Ann Arbor</p>
