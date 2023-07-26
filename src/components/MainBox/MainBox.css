@@ -23,3 +23,12 @@
     border-radius: 15px;
     width: 950px;
 }
+
+hr {
+    width: 20%;
+    margin-left: 0;
+    border: none;
+    height: 5px;
+    border-radius: 40%;
+    background-color: gold;
+}
