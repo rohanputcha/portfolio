@@ -13,6 +13,9 @@ function MainBox() {
                     <section id="about-me">
                         <h2>About Me</h2>
                     </section>
+                    <section id="resume">
+                        <h2>Resume</h2>
+                    </section>
                     <section id="contact">
                         <h2>Contact</h2>
                     </section>

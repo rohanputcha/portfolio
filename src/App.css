@@ -1,9 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@100&display=swap');
+
 body {
     margin: 0;
     padding: 0;
     background-color: #000;
     color: #fff;
-    font-family: Arial, sans-serif;
+    font-family: 'REM', sans-serif;
     display: flex;
     align-items: center; /* Vertically center the content */
     min-height: 100vh; /* Ensure the content fills the screen */

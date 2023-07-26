@@ -2,6 +2,8 @@
     display: flex;
     background-color: #333;
     padding: 10px 20px;
+    width: fit-content;
+    border-radius: 15px;
   }
   
   .navbar li {
@@ -25,3 +27,6 @@
     background-color: #777;
   }
   
+  .navbar ul {
+    padding-left: 20px;
+  }

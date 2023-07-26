@@ -31,6 +31,15 @@ function Navbar() {
         <li>
           <button
             type="button"
+            onClick={() => handleNavClick('resume')}
+            style={{ color: activeTab === 'resume' ? '#FFD700' : '#fff' }}
+          >
+            Resume
+          </button>
+        </li>
+        <li>
+          <button
+            type="button"
             onClick={() => handleNavClick('contact')}
             style={{ color: activeTab === 'contact' ? '#FFD700' : '#fff' }}
           >
