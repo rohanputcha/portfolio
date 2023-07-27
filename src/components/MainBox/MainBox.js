@@ -3,6 +3,7 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import './MainBox.css'
+import AboutMe from '../AboutMe/AboutMe';
 
 function MainBox() {
   return (
@@ -13,6 +14,7 @@ function MainBox() {
                     <section id="about-me">
                         <h2>About Me</h2>
                         <hr></hr>
+                        <AboutMe/>
                     </section>
                     <section id="resume">
                         <h2>Resume</h2>

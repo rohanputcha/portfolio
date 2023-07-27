@@ -15,6 +15,11 @@
 .main-container {
     flex: 1; /* Take up the remaining available space */
     margin-left: 430px; /* Adjust the margin to create space for the sidebar */
+    animation: fadeIn 1s ease-in-out;
+}
+
+.main-content:hover {
+    padding: 25px;
 }
   
 .main-content {
@@ -22,6 +27,7 @@
     background-color: #444;
     border-radius: 15px;
     width: 950px;
+    transition: padding 0.5s;
 }
 
 hr {
@@ -32,3 +38,13 @@ hr {
     border-radius: 40%;
     background-color: gold;
 }
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
