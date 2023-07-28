@@ -11,7 +11,7 @@ function Sidebar() {
             <div className="profile-picture">
                 <img src={profilepic} alt="Profile" />
             </div>
-            <h2>Rohan Putcha</h2>
+            <h1>Rohan Putcha</h1>
             <hr></hr>
             <h3>University of Michigan - Ann Arbor</h3>
             <h3>Email: &nbsp;<a href='mailto:rputcha@umich.edu'>rputcha@umich.edu</a></h3>

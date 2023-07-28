@@ -44,8 +44,10 @@
         color: aqua;
       }
 
-      .sidebar h2 {
+      .sidebar h1 {
         font-size: xx-large;
+        margin-bottom: 5%;
+        margin-top: 5%;
       }
 
       .sidebar hr {

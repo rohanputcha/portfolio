@@ -1,0 +1,12 @@
+.MuiTimeline-root .MuiTimelineContent-root {
+    white-space: nowrap;
+    font-family: 'REM', sans-serif;
+}
+
+.goldText {
+    color: gold;
+}
+
+.italicsText {
+    font-style: italic;
+}

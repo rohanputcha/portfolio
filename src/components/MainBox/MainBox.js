@@ -4,6 +4,7 @@ import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import './MainBox.css'
 import AboutMe from '../AboutMe/AboutMe';
+import Resume from '../Resume/Resume'
 
 function MainBox() {
   return (
@@ -12,16 +13,17 @@ function MainBox() {
                 <article className="portfolio">
                     <Navbar/>
                     <section id="about-me">
-                        <h2>About Me</h2>
+                        <h2 className='section-title'>About Me</h2>
                         <hr></hr>
                         <AboutMe/>
                     </section>
                     <section id="resume">
-                        <h2>Resume</h2>
+                        <h2 className='section-title'>Resume</h2>
                         <hr></hr>
+                        <Resume/>
                     </section>
                     <section id="contact">
-                        <h2>Contact</h2>
+                        <h2 className='section-title'>Contact</h2>
                         <hr></hr>
                     </section>
                 </article>
