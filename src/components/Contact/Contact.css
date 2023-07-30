@@ -1,0 +1,28 @@
+.contact-card {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  .contact-card h2 {
+    margin-bottom: 10px;
+  }
+  
+  .contact-card p {
+    margin-bottom: 20px;
+  }
+  
+  .contact-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-card li {
+    margin-bottom: 10px;
+  }
+  
+  .contact-page-div {
+    margin-top: 30px;
+  }

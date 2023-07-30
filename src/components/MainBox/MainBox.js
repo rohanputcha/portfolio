@@ -6,6 +6,7 @@ import "./MainBox.css";
 import AboutMe from "../AboutMe/AboutMe";
 import Resume from "../Resume/Resume";
 import Skills from "../Skills/Skills";
+import Contact from "../Contact/Contact";
 
 function MainBox() {
   return (
@@ -31,6 +32,7 @@ function MainBox() {
           <section id="contact">
             <h2 className="section-title">Contact</h2>
             <hr></hr>
+            <Contact />
           </section>
         </article>
       </main>
