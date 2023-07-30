@@ -38,7 +38,7 @@ function SkillCardModal({ skill, type, title, description }) {
   );
 
   return (
-    <div class="skill-card-modal-div">
+    <div className="skill-card-modal-div">
       <SkillCard
         skill={skill}
         type={type}
