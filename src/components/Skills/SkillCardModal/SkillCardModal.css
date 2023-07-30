@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@100;200&display=swap');
+
+.skill-card-modal-div div {
+    font-family: 'REM', sans-serif;
+}
+
+.modal-items div h2 {
+    font-family: 'REM', sans-serif;
+}
+
+.modal-items div p {
+    font-family: 'REM', sans-serif;
+}

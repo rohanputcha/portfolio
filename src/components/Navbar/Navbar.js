@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import './Navbar.css';
+import React, { useState } from "react";
+import "./Navbar.css";
 
 function Navbar() {
-  const [activeTab, setActiveTab] = useState('about-me');
+  const [activeTab, setActiveTab] = useState("about-me");
 
   const handleNavClick = (tabId) => {
     setActiveTab(tabId);
@@ -10,9 +10,9 @@ function Navbar() {
   };
 
   const toggleSectionVisibility = (tabId) => {
-    const sections = document.querySelectorAll('section');
+    const sections = document.querySelectorAll("section");
     sections.forEach((section) => {
-      section.style.display = section.id === tabId ? 'block' : 'none';
+      section.style.display = section.id === tabId ? "block" : "none";
     });
   };
 
@@ -22,8 +22,8 @@ function Navbar() {
         <li>
           <button
             type="button"
-            onClick={() => handleNavClick('about-me')}
-            style={{ color: activeTab === 'about-me' ? '#FFD700' : '#fff' }}
+            onClick={() => handleNavClick("about-me")}
+            style={{ color: activeTab === "about-me" ? "#FFD700" : "#fff" }}
           >
             About Me
           </button>
@@ -31,8 +31,8 @@ function Navbar() {
         <li>
           <button
             type="button"
-            onClick={() => handleNavClick('resume')}
-            style={{ color: activeTab === 'resume' ? '#FFD700' : '#fff' }}
+            onClick={() => handleNavClick("resume")}
+            style={{ color: activeTab === "resume" ? "#FFD700" : "#fff" }}
           >
             Resume
           </button>
@@ -40,8 +40,17 @@ function Navbar() {
         <li>
           <button
             type="button"
-            onClick={() => handleNavClick('contact')}
-            style={{ color: activeTab === 'contact' ? '#FFD700' : '#fff' }}
+            onClick={() => handleNavClick("skills")}
+            style={{ color: activeTab === "skills" ? "#FFD700" : "#fff" }}
+          >
+            Skills
+          </button>
+        </li>
+        <li>
+          <button
+            type="button"
+            onClick={() => handleNavClick("contact")}
+            style={{ color: activeTab === "contact" ? "#FFD700" : "#fff" }}
           >
             Contact
           </button>
