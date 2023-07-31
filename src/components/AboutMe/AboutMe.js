@@ -19,6 +19,11 @@ function AboutMe() {
         further and discover the exciting world of software development through
         my eyes.
       </p>
+      <p className="small-text">
+        This website is built using React, incorporating my original ideas and
+        source code. Explore its source code on my public GitHub repository{" "}
+        <a href="https://github.com/rohanputcha/portfolio">here</a>.
+      </p>
     </div>
   );
 }
