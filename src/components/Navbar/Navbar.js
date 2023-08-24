@@ -40,6 +40,24 @@ function Navbar() {
         <li>
           <button
             type="button"
+            onClick={() => handleNavClick("projects")}
+            style={{ color: activeTab === "projects" ? "#FFD700" : "#fff" }}
+          >
+            Projects
+          </button>
+        </li>
+        <li>
+          <button
+            type="coursework"
+            onClick={() => handleNavClick("coursework")}
+            style={{ color: activeTab === "coursework" ? "#FFD700" : "#fff" }}
+          >
+            Coursework
+          </button>
+        </li>
+        <li>
+          <button
+            type="button"
             onClick={() => handleNavClick("skills")}
             style={{ color: activeTab === "skills" ? "#FFD700" : "#fff" }}
           >

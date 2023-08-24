@@ -7,6 +7,8 @@ import AboutMe from "../AboutMe/AboutMe";
 import Resume from "../Resume/Resume";
 import Skills from "../Skills/Skills";
 import Contact from "../Contact/Contact";
+import Projects from "../Projects/Projects";
+import Coursework from "../Coursework/Coursework";
 
 function MainBox() {
   return (
@@ -23,6 +25,16 @@ function MainBox() {
             <h2 className="section-title">Resume</h2>
             <hr></hr>
             <Resume />
+          </section>
+          <section id="projects">
+            <h2 className="section-title">Projects</h2>
+            <hr></hr>
+            <Projects />
+          </section>
+          <section id="coursework">
+            <h2 className="section-title">Coursework</h2>
+            <hr></hr>
+            <Coursework />
           </section>
           <section id="skills">
             <h2 className="section-title">Skills</h2>

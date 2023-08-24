@@ -4,6 +4,11 @@
     font-family: 'REM', sans-serif;
 }
 
+.skill-card-modal-div div p {
+    font-family: 'REM', sans-serif;
+    font-size: 1.1rem;
+}
+
 .modal-items div h2 {
     font-family: 'REM', sans-serif;
 }

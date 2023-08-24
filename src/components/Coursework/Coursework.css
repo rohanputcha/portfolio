@@ -1,0 +1,6 @@
+.coursework-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns per row */
+    gap: 20px; /* Gap between cards */
+  }
+  

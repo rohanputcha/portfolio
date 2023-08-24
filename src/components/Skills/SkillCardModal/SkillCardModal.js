@@ -44,7 +44,6 @@ function SkillCardModal({ skill, type, title, description }) {
         type={type}
         onClick={handleSkillCardClick} // Pass the onClick handler to SkillCard
       />
-      {/* Add more SkillCard components with different skills and types as needed */}
       <Modal
         className="modal-items"
         open={open}

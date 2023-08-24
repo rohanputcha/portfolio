@@ -22,9 +22,10 @@
         animation: fadeIn 1.5s ease-in-out;
     }
 
-    .sidebar:hover {
+    /* Uncomment to hover effect on sidebar */
+    /* .sidebar:hover {
         padding: 25px;
-    }
+    } */
 
     .profile-picture {
         width: 100px;
