@@ -25,10 +25,35 @@ function WorkTimeline() {
             <br></br>
           </div>
           <div>
+            <div className="italicsText">
+              Project: Text File Upload Feature to File Upload Library (FUL)
+              application
+            </div>
             <ul>
-              <li>Need to update</li>
-              <li>info for this internship</li>
-              <li>TBD</li>
+              <li>
+                Enhanced State Farm's File Upload Library Angular application,
+                enabling the attachment<br></br>of text files to customers’
+                claims
+              </li>
+              <li>
+                Improved web and mobile UI screens incorporating new features
+              </li>
+              <li>
+                Conducted comprehensive unit and end-to-end tests in TypeScript
+              </li>
+              <li>
+                Gained experience adding CI/CD pipeline jobs and running Snyk
+                vulnerability scans
+              </li>
+              <li>
+                Orchestrated successful production deployment of new feature
+                enhancements to the<br></br>primary client-facing website,
+                Claims Hub
+              </li>
+              <li>
+                Collaborated with Agile (Scrumban) methodologies in the Media
+                Innovation Team
+              </li>
             </ul>
           </div>
           <div>
