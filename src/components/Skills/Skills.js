@@ -95,6 +95,7 @@ function Skills() {
           type={frame}
           title="React"
           description={[
+            "Used in EECS 485: Web Systems",
             "Work experience in 2021 Fall Internship",
             "This project!",
           ]}
@@ -108,6 +109,17 @@ function Skills() {
           description={[
             "Used in EECS 484: Database Management Systems",
             "Work experience in 2022 Summer Internship",
+          ]}
+        />
+      </Grid>
+      <Grid xs={4}>
+        <SkillCardModal
+          skill="Flask"
+          type={frame}
+          title="Flask"
+          description={[
+            "Used in EECS 485: Web Systems",
+            "Used in personal project: InsureScore",
           ]}
         />
       </Grid>

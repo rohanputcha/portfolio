@@ -17,28 +17,6 @@ function Coursework() {
       ],
     },
     {
-      skill: "Database Management Systems",
-      type: "EECS 484",
-      title: "Database Management Systems",
-      description: [
-        "Concepts and methods for the design, creation, query and management of large enterprise databases",
-        "Functions and characteristics of the leading database management systems",
-        "Query languages such as SQL, forms, embedded SQL, and application development tools",
-        "Database design, integrity, normalization, access methods, query optimization, transaction management and currency control and recovery",
-      ],
-    },
-    {
-      skill: "Introduction to Machine Learning",
-      type: "EECS 445",
-      title: "Introduction to Machine Learning",
-      description: [
-        "Theory and implementation of state-of-the-art machine learning algorithms for large-scale real-world applications",
-        "Topics include supervised learning (regression, classification, kernel methods, neural networks, and regularization) and unsupervised learning (clustering, HMMs, density estimation, and dimensionality reduction)",
-        "For each topic, mathematical principles, key algorithmic ideas, and implementation will be highlighted",
-        "Database design, integrity, normalization, access methods, query optimization, transaction management and currency control and recovery",
-      ],
-    },
-    {
       skill: "Foundations of Computer Science",
       type: "EECS 376",
       title: "Foundations of Computer Science",
@@ -60,6 +38,48 @@ function Coursework() {
       ],
     },
     {
+      skill: "Introduction to ML",
+      type: "EECS 445",
+      title: "Introduction to Machine Learning",
+      description: [
+        "Theory and implementation of state-of-the-art machine learning algorithms for large-scale real-world applications",
+        "Topics include supervised learning (regression, classification, kernel methods, neural networks, and regularization) and unsupervised learning (clustering, HMMs, density estimation, and dimensionality reduction)",
+        "For each topic, mathematical principles, key algorithmic ideas, and implementation will be highlighted",
+        "Database design, integrity, normalization, access methods, query optimization, transaction management and currency control and recovery",
+      ],
+    },
+    {
+      skill: "Web Systems",
+      type: "EECS 485",
+      title: "Web Systems",
+      description: [
+        "This course teaches concepts surrounding web systems, applications, and internet scale distributed systems",
+        "Topics covered include client/server protocols, security, information retrieval and search engines, scalable data processing, and fault tolerant systems",
+        "The course has substantial projects (using frameworks such as ReactJS) involving development of web applications and web systems",
+      ],
+    },
+    {
+      skill: "Introduction to AI",
+      type: "EECS 492",
+      title: "Introduction to Artificial Intelligence",
+      description: [
+        "Introduction to the core concepts of AI, organized around building computational agents",
+        "This course emphasizes the application of AI techniques",
+        "Topics include search, logic, knowledge representation, reasoning, planning, decision making under the uncertainty, and machine learning",
+      ],
+    },
+    {
+      skill: "Database Management Systems",
+      type: "EECS 484",
+      title: "Database Management Systems",
+      description: [
+        "Concepts and methods for the design, creation, query and management of large enterprise databases",
+        "Functions and characteristics of the leading database management systems",
+        "Query languages such as SQL, forms, embedded SQL, and application development tools",
+        "Database design, integrity, normalization, access methods, query optimization, transaction management and currency control and recovery",
+      ],
+    },
+    {
       skill: "Programming and Intro Data Structures",
       type: "EECS 280",
       title: "Programming and Introductory Data Structures",
@@ -78,26 +98,6 @@ function Coursework() {
         "Team-based, user-centered design and development of complex software systems incorporating effective design strategies and project management methodologies",
         "Topics include customer discovery, contextual inquiry, prototyping, process models, creative problem solving, inclusive thinking, team dynamics, social concerns, and testing strategies",
         "Semester-long senior design project - developed a recipe website that has specific accomodations for those with dietary preferences and allergies",
-      ],
-    },
-    {
-      skill: "Web Systems (In Progress)",
-      type: "EECS 485",
-      title: "Web Systems (In Progress)",
-      description: [
-        "This course teaches concepts surrounding web systems, applications, and internet scale distributed systems",
-        "Topics covered include client/server protocols, security, information retrieval and search engines, scalable data processing, and fault tolerant systems",
-        "The course has substantial projects (using frameworks such as ReactJS) involving development of web applications and web systems",
-      ],
-    },
-    {
-      skill: "Introduction to AI (In Progress)",
-      type: "EECS 492",
-      title: "Introduction to Artificial Intelligence (In Progress)",
-      description: [
-        "Introduction to the core concepts of AI, organized around building computational agents",
-        "This course emphasizes the application of AI techniques",
-        "Topics include search, logic, knowledge representation, reasoning, planning, decision making under the uncertainty, and machine learning",
       ],
     },
   ];

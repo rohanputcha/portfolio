@@ -23,8 +23,10 @@ function EducationTimeline() {
           <div>
             <br></br>
           </div>
-          <div>Major: Computer Science | GPA: 3.862</div>
-          <div className="italicsText">Dean's List - Winter 2022</div>
+          <div>Major: Computer Science | GPA: 3.842</div>
+          <div className="italicsText">
+            University Honors - Winter 2022, Fall 2022, Winter 2023, Fall 2023
+          </div>
           <div>
             Student Orgs: Chess Club (USCF affiliated), Michigan Algorithmic
             Trading (MAT)
