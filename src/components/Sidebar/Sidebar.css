@@ -1,11 +1,9 @@
     .sidebar {
         padding: 20px;
         background-color: #333;
-        position: fixed;
-        top: 50%; /* Position at the middle of the screen */
-        transform: translateY(-50%); /* Adjust for the element's height */
         border-radius: 15px;
         transition: padding 0.5s;
+        margin: 40px;
     }
 
     @keyframes fadeIn {
@@ -18,7 +16,7 @@
     }
 
     .sidebar-container {
-        margin-left: 10%;
+        /* margin-left: 10%; */
         animation: fadeIn 1.5s ease-in-out;
     }
 

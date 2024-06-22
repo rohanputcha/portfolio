@@ -10,9 +10,12 @@ body {
     display: flex;
     align-items: center; /* Vertically center the content */
     min-height: 100vh; /* Ensure the content fills the screen */
-  }
+}
 
-  .container {
-    display: flex;
-    align-items: center; /* Vertically center the content */
-  }
+.container {
+  display: flex;
+}
+
+#root {
+  width: 100%;
+}
