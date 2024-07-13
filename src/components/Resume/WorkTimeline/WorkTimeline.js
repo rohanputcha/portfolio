@@ -20,6 +20,60 @@ function WorkTimeline() {
         <TimelineContent>
           <div>State Farm Insurance</div>
           <div>Enterprise Technology Intern - Software Developer (Summer)</div>
+          <div className="goldText">May 2024 - August 2024</div>
+          <div>
+            <br></br>
+          </div>
+          <div>
+            <div className="italicsText">
+              Project: Integration of Claims Media with Media Event Publisher
+              (MEP) and Infrastructure Enhancements
+            </div>
+            <ul>
+              <li>
+                Developed a full service from scratch for Claims Media in
+                TypeScript to post events<br></br>to MEP, including
+                comprehensive unit tests.
+              </li>
+              <li>
+                Integrated MEP API calls (subscribing to my service) in critical
+                user journey points<br></br>within Claims Media, monitored via
+                Datadog and AWS CloudWatch.
+              </li>
+              <li>
+                Created and configured three new Azure applications (dev, test,
+                prod environments)<br></br>for Claims Media to publish events,
+                integrating them using Terraform.
+              </li>
+              <li>
+                Implemented secrets rotation within Azure with AWS Secrets
+                Manager and stored<br></br>configurations in Vault and Scalr for
+                security.
+              </li>
+              <li>
+                Contributed to team transition to ID token authentication by
+                updating Claims Media <br></br>Infrastructure application.
+              </li>
+              <li>
+                Provided technical insights in UI decision meetings, influencing
+                design improvements<br></br>for the Emergency Roadside Service
+                (ERS) application.
+              </li>
+            </ul>
+          </div>
+          <div>
+            <br></br>
+          </div>
+        </TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineSeparator>
+          <TimelineDot color="error" variant="outlined" />
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>
+          <div>State Farm Insurance</div>
+          <div>Enterprise Technology Intern - Software Developer (Summer)</div>
           <div className="goldText">May 2023 - August 2023</div>
           <div>
             <br></br>

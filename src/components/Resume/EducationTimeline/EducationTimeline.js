@@ -19,14 +19,33 @@ function EducationTimeline() {
         </TimelineSeparator>
         <TimelineContent>
           <div>University of Michigan - Ann Arbor</div>
+          <div className="goldText">2024 - 2025</div>
+          <div>
+            <br></br>
+          </div>
+          <div>MS | Major: Computer Science & Engineering</div>
+          <div>Begins Fall 2024</div>
+          <div>
+            <br></br>
+          </div>
+        </TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineSeparator>
+          <TimelineDot color="info" variant="outlined" />
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>
+          <div>University of Michigan - Ann Arbor</div>
           <div className="goldText">2021 - 2024</div>
           <div>
             <br></br>
           </div>
-          <div>Major: Computer Science | GPA: 3.842</div>
+          <div>BS | Major: Computer Science | GPA: 3.85</div>
           <div className="italicsText">
             University Honors - Winter 2022, Fall 2022, Winter 2023, Fall 2023
           </div>
+          <div className="italicsText">James B. Angell Scholar</div>
           <div>
             Student Orgs: Chess Club (USCF affiliated), Michigan Algorithmic
             Trading (MAT)
@@ -47,7 +66,7 @@ function EducationTimeline() {
           <div>
             <br></br>
           </div>
-          <div>Major: Computer Sciences | GPA: 4.0</div>
+          <div>BS | Major: Computer Sciences | GPA: 4.0</div>
           <div>
             <span className="italicsText">Dean's List - Fall 2020</span> |{" "}
             <span className="italicsText">Dean's List - Spring 2021</span>

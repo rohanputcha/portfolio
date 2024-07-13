@@ -61,7 +61,7 @@ function Skills() {
           type={frame}
           title="Angular"
           description={[
-            "Work experience in Summer 2023 Internship",
+            "Work experience in Summer 2023 and Summer 2024 Internship",
             "Learned TypeScript and contributed to multiple large Angular applications",
           ]}
         />
