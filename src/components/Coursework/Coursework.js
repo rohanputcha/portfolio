@@ -151,6 +151,7 @@ function Coursework() {
       <div className="project-grid">
         {michiganCoursework.map((course, index) => (
           <SkillCardModal
+            key={index}
             skill={course.skill}
             type={course.type}
             title={course.title}

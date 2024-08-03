@@ -7,6 +7,18 @@ import SkillCardModal from "../Skills/SkillCardModal/SkillCardModal";
 function Projects() {
   const hackathonProjects = [
     {
+      title: "The Farmer",
+      description: [
+        "Built an internal socializing tool for State Farm which creates a group chat at a random time of the work day to spark conversation",
+        "Worked on a chat bot that creates the group chat with a daily unique AI generated prompt from OpenAI API",
+        "Utilized OpenAI API to adjust temperature levels for uniqueness",
+        "Created a script that maintains a short-term memory of the past 20 questions to ensure any new generated prompt has a low similarity score with all previous questions",
+        "Technologies used: Python, Azure Identity, NLTK, Bash Scripting, Git",
+      ],
+      skill: "The Farmer",
+      type: "SF Hack Day 2024",
+    },
+    {
       title: "InsureScore",
       description: [
         "Built an application that calculates the risk score of a user for State Farm's yearly hackathon",
@@ -115,6 +127,7 @@ function Projects() {
       <div className="project-grid">
         {hackathonProjects.map((project, index) => (
           <SkillCardModal
+            key={index}
             skill={project.skill}
             type={project.type}
             title={project.title}
