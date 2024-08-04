@@ -5,6 +5,10 @@ function Navbar() {
   const [activeTab, setActiveTab] = useState("about-me");
 
   const handleNavClick = (tabId) => {
+    window.gtag("event", "click", {
+      event_category: "Navigation",
+      event_label: tabId,
+    });
     setActiveTab(tabId);
     toggleSectionVisibility(tabId);
   };
