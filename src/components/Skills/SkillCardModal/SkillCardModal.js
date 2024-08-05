@@ -10,6 +10,10 @@ function SkillCardModal({ skill, type, title, description }) {
 
   const handleOpen = () => {
     setOpen(true);
+    window.gtag("event", "open_modal", {
+      event_category: "User Interaction",
+      event_label: this.skill,
+    });
   };
 
   const handleClose = () => {
