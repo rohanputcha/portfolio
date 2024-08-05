@@ -8,6 +8,7 @@ function Navbar() {
     window.gtag("event", "click", {
       event_category: "Navigation",
       event_label: tabId,
+      event_timestamp: new Date().toISOString(),
     });
     setActiveTab(tabId);
     toggleSectionVisibility(tabId);

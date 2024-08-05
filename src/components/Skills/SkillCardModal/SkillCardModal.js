@@ -13,6 +13,7 @@ function SkillCardModal({ skill, type, title, description }) {
     window.gtag("event", "open_modal", {
       event_category: "User Interaction",
       event_label: skill,
+      event_timestamp: new Date().toISOString(),
     });
   };
 
