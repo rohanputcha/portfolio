@@ -125,6 +125,17 @@ function Skills() {
       </Grid>
       <Grid xs={4}>
         <SkillCardModal
+          skill="PyTorch"
+          type={frame}
+          title="PyTorch"
+          description={[
+            "Used in EECS 445: Intro to Machine Learning",
+            "Used in personal project: InsureScore",
+          ]}
+        />
+      </Grid>
+      <Grid xs={4}>
+        <SkillCardModal
           skill="Hugo"
           type={frame}
           title="Hugo"

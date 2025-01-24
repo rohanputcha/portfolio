@@ -5,6 +5,49 @@ import "./Projects.css";
 import SkillCardModal from "../Skills/SkillCardModal/SkillCardModal";
 
 function Projects() {
+  const researchProjects = [
+    {
+      title:
+        "Locally Differentially Private Succinct Sketches for Frequency Estimation",
+      description: [
+        "Developed a novel privacy-preserving framework, LDP-CMS, combining Count-Min Sketch and local differential privacy to ensure robust frequency estimation in untrusted distributed systems",
+        "Conducted extensive experimental evaluations analyzing the trade-offs between privacy and utility under varying privacy budgets",
+        "The project repository contains a detailed research report (in IEEE format) explaining the setting, providing a mathematical analysis of the privacy/utility trade-offs, and detailing the evaluation/results.",
+        "GitHub repository: https://github.com/rohanputcha/private-frequency-estimation/",
+        "Technologies used: Python, Socket, Pickle, NumPy, SymPy, and Bash Scripting",
+      ],
+      skill: "LDP-CMS",
+      type: "Data Privacy Research",
+    },
+    {
+      title:
+        "Automated Classification of healthcare SOAP Notes for HEART@UM-Flint",
+      description: [
+        "Collaborated with HEART, a pro bono physical therapy clinic, to broaden access to affordable healthcare and enhance student training opportunities.",
+        "Designed and implemented a system to parse healthcare SOAP notes and classify care elements as skilled or unskilled based on a general rubric, simulating an insurance company's evaluation process.",
+        "Integrated automated feedback mechanisms for physical therapy students to improve care documentation and adherence to insurance standards.",
+        "This project required Natural Language Processing (NLP) techniques, Regular Expressions, and a Large Language Model (LLM) API to analyze and categorize SOAP notes.",
+        "Technologies used: Python, PyMuPDF, Apple Vision, Google Gemini API, Bash Scripting",
+        "GitHub repository: https://github.com/rohanputcha/soap-note-classifier",
+      ],
+      skill: "SOAP Note Classifier",
+      type: "Healthcare Automation",
+    },
+    {
+      title: "Compiler Optimization Using Genetic Algorithms",
+      description: [
+        "Developed a Genetic Algorithm (GA)-assisted framework for compiler optimization, enhancing LLVM optimization pass sequences using evolutionary principles.",
+        "Incorporated a fitness function based on runtime reduction, IR instruction count, and Autophase metrics to guide optimization.",
+        "Evaluated performance across CBench and CHStone benchmarks, demonstrating GA's capability to outperform reinforcement learning (RL) in identifying superior optimization sequences.",
+        "The report (found in the repository) includes a comprehensive analysis of GA's strengths and limitations compared to RL, and a detailed exploration of the trade-offs between computational effort and optimization quality.",
+        "GitHub repository: https://github.com/rohanputcha/compiler_optimization_ga/",
+        "Technologies used: Python, CompilerGym, LLVM, Reinforcement Learning, Genetic Algorithms.",
+      ],
+      skill: "GA Compiler Opt",
+      type: "Compiler Optimization with AI",
+    },
+  ];
+
   const hackathonProjects = [
     {
       title: "The Farmer",
@@ -117,12 +160,24 @@ function Projects() {
         "See GitHub repository for more details and download: https://github.com/rohanputcha/ColorSwitch",
       ],
       skill: "ColorSwitch",
-      type: "High School Project",
+      type: "Android App",
     },
   ];
 
   return (
     <div>
+      <h1>Research Projects</h1>
+      <div className="project-grid">
+        {researchProjects.map((project, index) => (
+          <SkillCardModal
+            key={index}
+            skill={project.skill}
+            type={project.type}
+            title={project.title}
+            description={project.description}
+          />
+        ))}
+      </div>
       <h1>Hackathon Projects</h1>
       <div className="project-grid">
         {hackathonProjects.map((project, index) => (
