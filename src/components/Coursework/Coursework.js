@@ -3,7 +3,66 @@ import SkillCardModal from "../Skills/SkillCardModal/SkillCardModal";
 import "./Coursework.css";
 
 function Coursework() {
-  const michiganCoursework = [
+  const msMichiganCoursework = [
+    {
+      skill: "Advanced Compilers",
+      type: "CSE 583",
+      title: "Advanced Compilers",
+      description: [
+        "In-depth study of compiler backend design for high-performance architectures",
+        "Topics include control-flow and data-flow analysis, optimization, instruction scheduling, register allocation",
+        "Advanced topics include memory hierarchy management, instruction-level parallelism, predicated and speculative execution",
+        "Explores up-to-date research in compilers, including cutting edge topics like AI-assisted optimization, CUDA-based parallelism, and more",
+        "Involves a substantial research project taken up throughout the semester. See more in the Projects section.",
+      ],
+    },
+    {
+      skill: "Data Privacy",
+      type: "CSE 598 Special Topics",
+      title: "Data Privacy: Why, What, and How",
+      description: [
+        "This course delves deep into developing full-stack privacy solutions, exploring why personal data collection is a privacy risk, defining privacy, and how to achieve privacy-preserving data analysis in practice.",
+        "Topics include differential privacy, cryptography, and real-world applications like secure data analysis for Google’s Gboard app, US Census Bureau’s anonymized statistics, and fairness in banking models.",
+        "Thoroughly explores privacy challenges in modern data collection and analysis, along with practical tools to tackle them.",
+        "The course involves lectures, research paper presentations, and an open-ended semester-long research project. See more in the Projects section.",
+      ],
+    },
+    {
+      skill: "Ethics in AI & Robotics",
+      type: "CSE 543",
+      title: "Ethics in Artificial Intelligence & Robotics",
+      description: [
+        "Focuses on philosophical ethics and game theory; trust, cooperation, and the well-being of society; safety and autonomous vehicles; privacy and surveillance; fairness and bias; jobs and economic inequality; regulation of AI.",
+        "The largest part of the course is a research project, working with a pro-bono physical therapy clinic, HEART@UM-Flint, to address their AI needs while acknowledging ethical concerns. See more in the Projects section.",
+      ],
+    },
+    {
+      skill: "Computer & Network Security",
+      type: "CSE 588",
+      title: "Advanced Computer & Network Security",
+      description: [
+        "Course currently in progress (Winter 2025)",
+        "This intensive seminar covers foundational and cutting-edge topics in computer and network security.",
+        "Topics include network protocol security (TCP, DNS), denial of service attacks and defenses, privacy-enhancing technologies, cryptography, secure messaging, hardware attacks, side-channel attacks, and more.",
+        "Students will explore research papers, conduct hands-on experiments, and engage in discussions about attacks and defenses across various areas, including operating systems, web applications, and IP networks.",
+        "The course involves presentations on research papers and culminates in an open-ended, semester-long research project, preparing students for both academic research and practical security applications.",
+      ],
+    },
+    {
+      skill: "Human-AI Interaction & Systems",
+      type: "CSE 598 Special Topics",
+      title: "Human-AI Interaction & Systems (Soon to be CSE 594)",
+      description: [
+        "Course currently in progress (Winter 2025)",
+        "This course focuses on designing and evaluating human-AI systems that are useful, usable, and ethical.",
+        "Topics include human-AI collaboration, crowdsourcing and human computation, explainable AI, fairness, bias, and auditing.",
+        "Students will design, develop, and iteratively refine human-AI systems to solve real-world problems, with a strong focus on ethical considerations.",
+        "The course includes a substantial research project where students apply research insights to create and evaluate interactive systems.",
+      ],
+    },
+  ];
+
+  const bsMichiganCoursework = [
     {
       skill: "Data Structures and Algorithms",
       type: "EECS 281",
@@ -102,7 +161,7 @@ function Coursework() {
     },
   ];
 
-  const wisconsinCoursework = [
+  const bsWisconsinCoursework = [
     {
       skill: "Programming III",
       type: "CS 400",
@@ -147,9 +206,9 @@ function Coursework() {
 
   return (
     <div>
-      <h1>University of Michigan</h1>
+      <h1>University of Michigan, MS</h1>
       <div className="project-grid">
-        {michiganCoursework.map((course, index) => (
+        {msMichiganCoursework.map((course, index) => (
           <SkillCardModal
             key={index}
             skill={course.skill}
@@ -159,9 +218,21 @@ function Coursework() {
           />
         ))}
       </div>
-      <h1>University of Wisconsin - Madison</h1>
+      <h1>University of Michigan, BS</h1>
       <div className="project-grid">
-        {wisconsinCoursework.map((course, index) => (
+        {bsMichiganCoursework.map((course, index) => (
+          <SkillCardModal
+            key={index}
+            skill={course.skill}
+            type={course.type}
+            title={course.title}
+            description={course.description}
+          />
+        ))}
+      </div>
+      <h1>University of Wisconsin - Madison, BS</h1>
+      <div className="project-grid">
+        {bsWisconsinCoursework.map((course, index) => (
           <SkillCardModal
             key={index}
             skill={course.skill}

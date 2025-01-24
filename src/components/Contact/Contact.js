@@ -17,22 +17,21 @@ function Contact() {
         </p>
       </div>
       <div className="contact-card">
-        <h2>Address</h2>
-        <p>1888 Heron View Dr, West Bloomfield, MI 48324, USA</p>
+        <h2>Mailing Address</h2>
+        <p>540 Thompson St, Ann Arbor, MI 48104, USA</p>
       </div>
       <div className="contact-card">
         <h2>Social Media</h2>
-        <p>Connect with me on:</p>
-        <ul>
-          <li>
-            <a href="https://www.linkedin.com/in/rohan-putcha-b640b0197/">
-              LinkedIn
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/rohanputcha/">GitHub</a>
-          </li>
-        </ul>
+        <p>
+          Connect with me on &nbsp;
+          <a href="https://www.linkedin.com/in/rohan-putcha-b640b0197/">
+            LinkedIn
+          </a>
+        </p>
+        <p>
+          Check out my &nbsp;
+          <a href="https://github.com/rohanputcha/">GitHub</a>
+        </p>
       </div>
     </div>
   );

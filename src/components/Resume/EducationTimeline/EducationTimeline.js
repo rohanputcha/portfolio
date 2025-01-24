@@ -23,8 +23,7 @@ function EducationTimeline() {
           <div>
             <br></br>
           </div>
-          <div>MS | Major: Computer Science & Engineering</div>
-          <div>Begins Fall 2024</div>
+          <div>MS | Major: Computer Science & Engineering | GPA: 4.0</div>
           <div>
             <br></br>
           </div>
